@@ -69,7 +69,6 @@ def rk4_step(
     """
     One explicit 4th-order Runge–Kutta step.
 
-    Inputs
     ------
     f      : callable
              Right-hand side f(t, z, *f_args) → dz/dt (same shape as z).
